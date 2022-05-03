@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 16px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.mainright {
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    height: 200px;
+}
+
+.heromaintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 600;
+
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.mainleft {
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupbutton {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 4px;
+    background: #3882F6;
+    color: white;
+    width: 40%;
+    padding: 4px;
+
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    gap: 40px;
+}
+
+.fig {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.square {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext {
+    text-align: center;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+}
